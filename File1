@@ -8,5 +8,17 @@ pipeline {
             }
          
         }
+        stage('Build') {
+            steps {
+                echo 'Building'
+            }
+         
+        }
+        stage('Dev') {
+            steps {
+                echo 'Developing'
+            }
+         
+        }
     }
 }
